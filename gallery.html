@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+  <title>Cast Catering</title>
+</head>
+
+<body>
+
+  <header>
+
+    <div class="logo">
+      <a href="index.html">CAST CATERING</a>
+    </div>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="quote.html">Get Quote</a>
+      <a href="gallery.html" class="gallery-nav">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+  </header>
+
+  <section class="gallery" id="gallery">
+
+    <h1>Gallery</h1>
+
+    <!-- this is grids container -->
+    <div class="gallery-container">
+
+      <!-- this is the grid -->
+      <a href="images/catering-buffet-food.jpg" class="box">
+        <div class="image">
+          <img src="images/catering-buffet-food.jpg" alt="">
+        </div>
+      </a>
+
+      <a href="images/breakfast.jpg" class="box">
+        <div class="image">
+          <img src="images/breakfast.jpg" alt="">
+        </div>
+      </a>
+
+      <a href="images/starters.jpg" class="box">
+        <div class="image">
+          <img src="images/starters.jpg" alt="">
+        </div>
+      </a>
+
+      <a href="images/bg1.jpg" class="box">
+        <div class="image">
+          <img src="images/bg1.jpg" alt="">
+        </div>
+      </a>
+
+      <a href="images/salads.jpg" class="box">
+        <div class="image">
+          <img src="images/salads.jpg" alt="">
+        </div>
+      </a>
+
+      <a href="images/bg2.jpg" class="box">
+        <div class="image">
+          <img src="images/bg2.jpg" alt="">
+        </div>
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- footer section starts here -->
+
+  <section class="footer">
+
+    <div class="box-container">
+
+      <!-- this is for each box of items in the footer -->
+      <div class="box">
+        <h3>quick links</h3>
+        <!-- listing items in the navbar -->
+        <!-- this is a column -->
+        <a href="index.html"><i class="fas fa-angle-right"></i> Home</a>
+        <a href="menu.html"><i class="fas fa-angle-right"></i> Menu</a>
+        <a href="quote.html"><i class="fas fa-angle-right"></i> Quote</a>
+        <a href="gallery.html"><i class="fas fa-angle-right"></i> Gallery</a>
+        <a href="#contact"><i class="fas fa-angle-right"></i> contact</a>
+      </div>
+
+      <!-- this is for each box of items in the footer -->
+      <div class="box">
+      <h3>Business Hours</h3>
+      <!-- listing items in the navbar -->
+      <!-- this is a column -->
+      <a href="#"><i class="fas fa-angle-right"></i> Monday - Friday  8am - 5pm</a>
+      <a href="#"><i class="fas fa-angle-right"></i> Saturday         8am - 4pm</a>
+      <a href="#"><i class="fas fa-angle-right"></i> Sunday           Closed</a>
+      <a href="#"><i class="fas fa-angle-right"></i> Holiday          Closed</a>
+    </div>
+
+      <!-- this is for each box of items in the footer -->
+      <div class="box">
+        <h3>follow us</h3>
+        <!-- listing items in the navbar -->
+        <!-- this is a column -->
+        <a href="#"><i class="fab fa-facebook"></i> facebook</a>
+        <a href="#"><i class="fab fa-twitter"></i> twitter</a>
+        <a href="#"><i class="fab fa-instagram"></i> instagram</a>
+        <a href="#"><i class="fab fa-linkedin"></i> linkedin</a>
+        <a href="#"><i class="fab fa-github"></i> github</a>
+      </div>
+
+      <!-- this is for each box of items in the footer -->
+      <div class="box">
+        <h3>contact us</h3>
+        <!-- listing items in the navbar -->
+        <!-- this is a column -->
+        <a href="#"><i class="fas fa-phone"></i> +27 86 458 9826</a>
+        <a href="#"><i class="fas fa-phone"></i> +72 72 452 3526</a>
+        <a href="#"><i class="fas fa-envelope"></i> portia@gmail.com</a>
+        <a href="#"><i class="fas fa-envelope"></i> andrea@gmail.com</a>
+        <a href="#"><i class="fas fa-map"></i> Sea point, Cape Town</a>
+      </div>
+
+    </div>
+
+    <p class="credit"> created by <span>nothando mthalane</span> | all rights reserved</p>
+
+  </section>
+
+  <!-- footer section ends here -->
+
+  <!-- JS script links -->
+
+  <!-- js script for images  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+  <!-- swiper js link -->
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- js file link -->
+  <script type="text/javascript" src="js/script.js"></script>
+
+  <script>
+    // this is to show images as a gallery
+    lightGallery(document.querySelector('.gallery .gallery-container'));
+  </script>
+
+</body>
+
+</html>
